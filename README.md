@@ -4,19 +4,24 @@ This can be useful when you need to represent a string address in a format commo
 
 How to Use:
 
+```
+git clone https://github.com/codemanfreecodes/HexConverter
+cd HexConverter
+```
+
     Compile the Program: Compile the HexConverter program using a C compiler like GCC. You can do this by running the following command in your terminal:
 
    
-
-gcc -o HexConverter HexConverter.c
-
-Replace "HexConverter.c" with the name of your source code file if it's different.
+```
+gcc -o HexConverter main.c
+```
+Replace "main.c" with the name of your source code file if it's different.
 
 Run the Program: After successful compilation, you can run the program by executing the following command:
-
+```
 
 ./HexConverter
-
+```
 Enter Your Input: When the program runs, it will prompt you to enter the string you want to convert. Type the desired string and press Enter.
 
 View the Converted String: The program will then display the input string in the hexadecimal "\x" format. For example:
